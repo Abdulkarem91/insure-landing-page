@@ -1,0 +1,217 @@
+body {
+    margin:0 auto ;
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.logo {
+    width: 60px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.navbar .list a {
+    text-decoration: none;
+    color: gray;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.list .btn {
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    margin-right: 10px;
+}
+
+.banner {
+    background-color: #2C2640; 
+    height: 600px;
+    color: white;
+    background-image: url(images/bg-pattern-intro-right-desktop.svg) right top no-repeat;
+    /* padding: 15px; */
+}
+
+.banner h1 {
+   font-size: 72px;
+   position: relative;
+   top: 60px;
+   left: 60px;
+}
+
+.banner p {
+   font-size: 16px;
+   position: relative;
+   top: 60px;
+   left: 60px;
+}
+
+.banner a {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
+.family-img {
+    position: relative;
+    top: -550px;
+    left: 600px;
+}
+
+.feature {
+    background: url(images/bg-pattern-intro-left-desktop.svg) left top no-repeat;
+}
+.feature h2 {
+    font-size: 72px;
+    color: #2C2830;
+    position: relative;
+    top: -500px;
+    left: 150px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-one h3 {
+    font-size: 28px;
+}
+
+.card-one p {
+    color: #837D88;
+    font-size: 16px;
+}
+
+.card-two h3 {
+    font-size: 28px;
+}
+
+.card-two p {
+    color: #837D88;
+    font-size: 16px;
+}
+
+.card-three h3 {
+    font-size: 28px;
+}
+
+.card-three p {
+    color: #837D88;
+    font-size: 16px;
+}
+
+.bottom-banner {
+    background-color: #2D2641;
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    top: -300px;
+    left: 250px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bottom-banner h3 {
+    font-size: 56px;
+    color: white;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.bottom-banner a {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 70px;
+    right: 70px;
+    height: 15px;
+    padding: 10px;
+}
+
+.footer {
+    height: 300px;
+    background-image: url(images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #F2F2F2;
+    background-position: left top;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    position: relative;
+    top: -30px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company a {
+    text-decoration: none;
+    color: black;
+}
+
+.company p {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.help a {
+    text-decoration: none;
+    color: black;
+}
+
+.help p {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact p {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.other a {
+    text-decoration: none;
+    color: black;
+}
+
+.other p {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social {
+    font-size: 25px;
+}
