@@ -7,7 +7,9 @@ body {
     justify-content: space-between;
     height: 40px;
 }
-
+.dropdown {
+    display: none;
+}
 .logo {
     width: 60px;
     height: 30px;
@@ -214,4 +216,300 @@ body {
 
 .social {
     font-size: 25px;
+}
+.family-img-mobile {
+    display: none;
+}
+
+.banner-mobile {
+    display: none;
+}
+
+/* this is for mobile  */
+@media screen and (max-width: 600px) {
+
+    .dropbtn {
+        background-image: url(images/icon-hamburger.svg);
+        background-repeat: no-repeat;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        top: 25px;
+        left: 200px;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        color: #f1f1f1;
+        
+        /* min-width: 160px; */
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        background-color: #2C2830;
+        height: 630px;
+        top: 60px;
+        background-image: url(images/bg-pattern-mobile-nav.svg);
+        background-repeat: no-repeat;
+      }
+      
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        width: 700px;
+
+      }
+      
+      .dropdown a:hover {background-color: #ddd;}
+      
+      .show {display: block;}
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+    }
+    
+    .logo {
+        width: 60px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    
+    .navbar .list a {
+        text-decoration: none;
+        color: gray;
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        display: none;
+    }
+    
+    .dropdown-content .btn {
+        padding: 10px;
+        border: 1px solid white;
+        color: white;
+        margin-right: 10px;
+    }
+    
+    .banner-mobile {
+        background-color: #2C2640; 
+        height: 600px;
+        color: white;
+        background-image: url(images/bg-pattern-intro-right-desktop.svg) left top no-repeat;
+        /* padding: 15px; */
+    }
+    
+    .banner h1 {
+       font-size: 40px;
+       position: relative;
+       top: 60px;
+       left: 20px;
+       text-align: center;
+    }
+    
+    .banner p {
+       font-size: 16px;
+       position: relative;
+       top: 60px;
+       left: 20px;
+       text-align: center;
+    }
+    
+    .banner a {
+        text-decoration: none;
+        border: 1px solid white;
+        color: white;
+        padding: 10px;
+        position: relative;
+        top: 70px;
+        left: 240px;
+        margin: 0 auto;
+    }
+    
+    .family-img-mobile {
+        position: relative;
+        top: 50px;
+        left: 0px;
+        display: block;
+    }
+    
+    .feature {
+        background: url(images/bg-pattern-intro-left-desktop.svg) left top no-repeat;
+        
+    }
+    .feature h2 {
+        font-size: 52px;
+        color: #2C2830;
+        position: relative;
+        
+        left: 100px;
+    }
+    
+    .cards {
+        display: block;
+        position: relative;
+        top: -400px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .card-one h3 {
+        font-size: 28px;
+    }
+    
+    .card-one p {
+        color: #837D88;
+        font-size: 16px;
+    }
+    
+    .card-two h3 {
+        font-size: 28px;
+    }
+    
+    .card-two p {
+        color: #837D88;
+        font-size: 16px;
+    }
+    
+    .card-three h3 {
+        font-size: 28px;
+    }
+    
+    .card-three p {
+        color: #837D88;
+        font-size: 16px;
+    }
+    
+    .bottom-banner {
+        background-color: #2D2641;
+        width: 327px;
+        height: 344px;
+        position: relative;
+        /* top: -300px; */
+        left: 90px;
+        display: flex;
+        justify-content: space-between;
+        background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 20px;
+    }
+    
+    .bottom-banner h3 {
+        font-size: 40px;
+        color: white;
+        /* padding: 10px; */
+        position: relative;
+        top: -50px;
+        left: 30px;
+        text-align: center;
+        
+    }
+    
+    .bottom-banner a {
+        border: 1px solid white;
+        color: white;
+        text-decoration: none;
+        position: relative;
+        top: 250px;
+        right: 130px;
+        height: 30px;
+        padding: 10px;
+       
+        text-align: center;
+    }
+    
+    .footer {
+        height: 700px;
+        background-image: url(images/bg-pattern-footer-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: #F2F2F2;
+        background-position: left top;
+    }
+    .header {
+        /* display: flex;
+        justify-content: space-around; */
+        border-bottom: 1px solid gray;
+        position: relative;
+        top: -30px;
+    }
+    
+    .header img {
+        position: relative;
+        left: 150px;
+    }
+    .last {
+        display: block;
+        text-align: center;
+    }
+    
+    .company a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .company p {
+        margin-left: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    
+    .help a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .help p {
+        margin-left: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .contact a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .contact p {
+        margin-left: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .other a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .other p {
+        margin-left: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .social {
+        font-size: 25px;
+        position: relative;
+        top: 50px;
+        left: -120px;
+    }
+    
 }
